@@ -34,8 +34,8 @@ public class DynamicDispatch
     {
         Super sup=new Sub();
        
-        sup.meth1();
-        sup.meth2();
+        sup.meth1(); // Output will be - Super Meth1
+        sup.meth2(); // Output will be - Sub Meth2
 
         
     }   
